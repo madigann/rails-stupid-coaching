@@ -1,0 +1,53 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// Defining a variable
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+}
+
+.banner {
+  background: red;
+
+  h1 {
+    font-size: 50px;
+  }
+}
+
+#button {
+  color: rgb(153, 153, 153);
+  border: 1px solid rgb(153, 153, 153);
+  padding: 15px 25px;
+  // border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+
+  &:hover {opacity: 1;
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+  }
+}
+
+.quote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  line-height: 1.6;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.quote p {
+  display: inline;
+}
+
+#question {
+  padding: 15px 5px;
+}
+
+#answer {
+  background: rgb(246, 255, 220);
+}
